@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ghec" />
+    <TextView
+        android:id="@+id/webGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="25dp"
+        android:text="   # FOR BROWSER CLICK GHEC  "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/notify"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="  NOTIFICATION BAR "
+        android:textSize="30sp"
+        android:layout_marginTop="98dp"
+        android:layout_marginStart="10dp"
+        app:drawableStartCompat="@drawable/baseline_circle_notifications_24"
+        tools:ignore="HardcodedText" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"
+        android:background="#87CEEB"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="WebViewLayout">
+
+            <WebView
+                android:id="@+id/notifyWeb"
+                android:layout_width="360dp"
+                android:layout_margin="10dp"
+                android:layout_height="180dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="100dp"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:text="GHEC"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="WELCOME TO GHEC "
+        android:textColor="#00008B"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        tools:ignore="HardcodedText" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gallery"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ghec" />
+
+        <TextView
+            android:id="@+id/tvGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="8dp"
+            android:textColor="#87CEEB"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="PHOTO GALLERY "
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/courses"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="400dp"
+       android:layout_gravity="end"
+        app:cardCornerRadius="20dp"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/baseline_diversity_1_24" />
+        <TextView
+            android:id="@+id/tvCourses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="8dp"
+            android:textColor="#87CEEB"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text=" DEPART -MENTS / CONTACTS "
+            tools:ignore="HardcodedText" />
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="95dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:drawableStart="@drawable/baseline_emoji_people_24"
+                android:text=" The idea of Government Hydro Engineering College in Bilaspur district of Himachal Pradesh was conceived in 2009 .After long wait finally this ambitious project has  matured on April 27, 2017. " />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
+

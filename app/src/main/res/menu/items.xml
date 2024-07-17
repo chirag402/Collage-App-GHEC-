@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Attendence"
+        android:id="@+id/attendence"
+        android:icon="@drawable/baseline_co_present_24"/>
+    <item android:title="PYQ`s"
+        android:id="@+id/pyq"
+        android:icon="@drawable/baseline_content_paste_search_24"/>
+
+    <item android:title="Student Corner"
+        android:id="@+id/student"
+        android:icon="@drawable/baseline_face_24"
+        tools:ignore="HardcodedText" />
+</menu>

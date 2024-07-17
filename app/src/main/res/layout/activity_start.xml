@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+<TextView
+    android:layout_width="80dp"
+    android:id="@+id/skip"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:drawableEnd="@drawable/baseline_double_arrow_24"
+    android:padding="5dp"
+    android:text="Skip"
+    android:textStyle="bold"
+    android:layout_marginEnd="40dp"
+    android:layout_marginTop="20dp"
+    tools:ignore="HardcodedText,UseCompatTextViewDrawableXml" />
+    <ImageView
+        android:id="@+id/ghec"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/ghec1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textSize="50sp"
+        android:text="GHEC BANDLA "
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textFacultyLogin"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/baseline_login_24"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:text="Faculty Login "
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,UseCompatTextViewDrawableXml" />
+    <TextView
+        android:id="@+id/textStudentLogin"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/baseline_double_arrow_24"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_marginBottom="30dp"
+        android:text="Student Login "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,UseCompatTextViewDrawableXml" />
+
+
+</LinearLayout>

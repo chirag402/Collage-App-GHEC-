@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "533343089097",
+    "firebase_url": "https://ghec-bandla-default-rtdb.firebaseio.com",
+    "project_id": "ghec-bandla",
+    "storage_bucket": "ghec-bandla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533343089097:android:f3cb6ef6277849e3ef3818",
+        "android_client_info": {
+          "package_name": "com.example.ghec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ5y_aSoMtUu2xIMKHT0QerrhgaleBWnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
